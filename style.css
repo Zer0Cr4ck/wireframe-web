@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #222831;
+    font-family: "Nunito Sans", serif;
+    font-optical-sizing: auto;
+    
+}
+
+.container{
+    max-width: 1158px;
+    margin:30px auto;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #393E46;
+    border-radius: 16px;
+    color: #EEEEEE;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.menu , .menu_social{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu{
+    font-size: 24px;
+    
+}
+.menu li{
+    border-left: 2px solid rgb(109, 100, 100);
+}
+.menu a,h1 a{
+    text-decoration: none;
+    color: #EEEEEE;
+    transition: color 0.5s ease-in-out
+}
+
+
+.menu a:hover,h1 a:hover{
+    color: #00ADB5;
+}
+.texto{
+    border-radius: 20px;
+    background-color: #EEEEEE;
+    font-weight: 600;
+}
+p{
+    margin: 25px;
+}
+
+section{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+
+   
+}
+
+.item{
+    flex: 1;
+
+}
+
+.item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.reverse{
+    order:2;
+}
+
+footer{
+    background-color: #EEEEEE;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px
+}
+
